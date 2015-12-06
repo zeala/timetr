@@ -1,0 +1,8 @@
+<h2>Page for project <%= @project.name %></h2>
+
+<p>Company: <%= @project.company.name %></p>
+<p>Default Rate: <%= @project.default_rate %></p>
+
+<p><%= link_to 'All projects', projects_path %></p>
+
+<p>alias: <%= @project.slug %> </p>
