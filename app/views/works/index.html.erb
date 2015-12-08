@@ -11,14 +11,12 @@
       <th>Hours</th>
       <th>Details</th>
     </tr>
-      <% @works.each do |work| %>
-          <tr>
-            <td><%= work.user %></td>
-            <td><%= link_to work.project, work.project %></td>
-            <td><%= work.datetimeperformed.strftime('%d/%m/%Y %H:%M') %></td>
-            <td><%= work.hours %></td>
-            <td><%= link_to 'View details', work %></td>
-          </tr>
-      <% end %>
+    <% @works.each do |work| %>
+       <%= render partial: "work", collection: @works %>
+    <% end %>
   </tbody>
 </table>
+
+<% content_for :aside do %>
+    <% render 'sidebar' %>
+<% end %>
