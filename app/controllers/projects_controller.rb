@@ -14,4 +14,11 @@ class ProjectsController < ApplicationController
     def new
         @project = Project.new
     end
+
+    def create
+      @project = Project.new(params[:project].permit(:name, :company_id, :slug, :default_rate))
+      @project.save
+      flash[:notice] = "New project entry is created"
+      redirect_to @project
+    end
 end

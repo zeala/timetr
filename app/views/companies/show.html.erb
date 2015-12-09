@@ -4,17 +4,22 @@
 
 <p><%= link_to "All companies", companies_path %> </p>
 
-<table>
-  <tbody>
-  <tr>
-    <th>Project</th>
-    <th>Company</th>
-  </tr>
-  <% @company.projects.each do |project| %>
-    <%= render partial: 'projects/project', collection: @company.projects %>
-  <% end %>
-  </tbody>
-</table>
+<% if @company.projects.count > 0 %>
+  <table>
+    <tbody>
+    <tr>
+      <th>Project</th>
+      <th>Company</th>
+    </tr>
+    <% @company.projects.each do |project| %>
+      <%= render partial: 'projects/project', collection: @company.projects %>
+    <% end %>
+    </tbody>
+  </table>
+  <% else %>
+  <p> No projects</p>
+<% end %>
+
 
 <% content_for :aside do %>
     <% render 'sidebar' %>

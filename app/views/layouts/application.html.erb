@@ -19,6 +19,10 @@
       </ul>
     </nav>
   </header>
+  <% if flash[:notice] %>
+      <div class="flash notice alert alert-success"><%= flash[:notice] %></div>
+  <% end %>
+
   <section id="main">
     <article>
       <%= yield %>
