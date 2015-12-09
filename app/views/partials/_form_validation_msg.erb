@@ -1,0 +1,10 @@
+<% if locals[:item].errors.any? %>
+    <div id="errors">
+      <p>Please correct the following <%= pluralize(locals[:item].errors.count, "error")%>:</p>
+      <ul>
+        <% locals[:item].errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+<% end %>

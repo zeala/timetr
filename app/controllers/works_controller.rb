@@ -16,6 +16,10 @@ class WorksController < ApplicationController
       @work = Work.new
   end
 
+  def edit
+    @work = Work.find([params[:id]])
+  end
+
   def create
     @work = Work.new(params[:work].permit(:project_id, :user_id, :datetimeperformed, :hours))
     if @work.save
@@ -24,6 +28,16 @@ class WorksController < ApplicationController
     else
       render 'new'
       flash[:alert] = "Enter valid data"
+    end
+  end
+
+  def update
+    @work = Work.find([params[:id]])
+    if @work.update
+      flash[:notice] = "Work updated"
+      redirect_to @work
+    else
+      redirect_to 'edit'
     end
   end
 end

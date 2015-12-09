@@ -5,7 +5,7 @@ class Project < ActiveRecord::Base
 
 
     validates :name, length: {minimum: 5}
-    validates :company, presence: true
+    validates :company_id, presence: true
     validates :default_rate, numericality: {only_integer: true, greater_than_or_equal_to: 50 }
 
     validates :slug, length: {minimum: 3}

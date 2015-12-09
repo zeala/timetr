@@ -27,4 +27,8 @@ class CompaniesController < ApplicationController
       flash[:alert] = "Entered incorrect details"
     end
   end
+
+  def edit
+    @company = Company.find(params[:id])
+  end
 end
