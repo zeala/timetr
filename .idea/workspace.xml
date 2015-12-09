@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27def79d-810f-4249-a63a-dbdcfa1f9c43" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/companies/_form.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/companies/edit.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/partials/_form_validation_msg.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/projects/_form.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/projects/edit.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/works/_form.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/works/edit.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/companies_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/companies_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/projects_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/works_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/works_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/project.rb" afterPath="$PROJECT_DIR$/app/models/project.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/companies/new.erb" afterPath="$PROJECT_DIR$/app/views/companies/new.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/companies/show.html.erb" afterPath="$PROJECT_DIR$/app/views/companies/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/new.erb" afterPath="$PROJECT_DIR$/app/views/projects/new.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/works/new.erb" afterPath="$PROJECT_DIR$/app/views/works/new.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/works/show.html.erb" afterPath="$PROJECT_DIR$/app/views/works/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/companies/_form.erb" afterPath="$PROJECT_DIR$/app/views/companies/_form.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/show.html.erb" afterPath="$PROJECT_DIR$/app/views/projects/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/works/_form.erb" afterPath="$PROJECT_DIR$/app/views/works/_form.erb" />
     </list>
     <ignored path="timetracker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,21 +32,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/projects/show.html.erb">
+      <file leaf-file-name="projects_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/works/show.html.erb">
+      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/projects/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22537878">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.5384617">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/projects/_form.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.846154">
+              <caret line="18" column="78" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/companies/_form.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/works/_form.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6684073">
+              <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -96,7 +113,6 @@
         <option value="$PROJECT_DIR$/app/views/works/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/companies/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/projects/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/projects/show.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/general/forms.css" />
         <option value="$PROJECT_DIR$/app/views/projects/new.html" />
         <option value="$PROJECT_DIR$/Gemfile" />
@@ -112,10 +128,8 @@
         <option value="$PROJECT_DIR$/app/models/project.rb" />
         <option value="$PROJECT_DIR$/app/views/companies/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/companies_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/works/_form.erb" />
         <option value="$PROJECT_DIR$/app/views/works/new.erb" />
         <option value="$PROJECT_DIR$/app/views/works/edit.erb" />
-        <option value="$PROJECT_DIR$/app/views/companies/_form.erb" />
         <option value="$PROJECT_DIR$/app/views/companies/new.erb" />
         <option value="$PROJECT_DIR$/app/views/partials/_form_validation_msg.erb" />
         <option value="$PROJECT_DIR$/app/views/projects/new.erb" />
@@ -125,6 +139,9 @@
         <option value="$PROJECT_DIR$/app/controllers/works_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/works/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/projects/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/companies/_form.erb" />
+        <option value="$PROJECT_DIR$/app/views/works/_form.erb" />
       </list>
     </option>
   </component>
@@ -134,9 +151,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="691" />
-    <option name="y" value="84" />
-    <option name="width" value="860" />
+    <option name="x" value="509" />
+    <option name="y" value="146" />
+    <option name="width" value="1084" />
     <option name="height" value="839" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -418,7 +435,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="recentsLimit" value="5" />
-    <property name="SearchEverywhereHistoryKey" value="show&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/works/show.html.erb&#10;pro*&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/projects_controller.rb&#10;work&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/works_controller.rb&#10;compan*con&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/companies_controller.rb&#10;project&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/project.rb&#10;project*con&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/projects_controller.rb&#10;work.*er&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/works/_work.erb&#10;company.*er&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/companies/_company.erb&#10;works&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/works_controller.rb&#10;new&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/companies/new.erb&#10;company&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/company.rb&#10;Work&#9;null&#9;null&#10;show.h&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/companies/show.html.erb&#10;application&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/layouts/application.html.erb&#10;CompaniesC&#9;null&#9;null&#10;applic&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/assets/javascripts/application.js&#10;application.css&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/assets/stylesheets/application.css&#10;sideb&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/projects/_sidebar.erb&#10;d3&#9;null&#9;null&#10;application.js&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/assets/javascripts/application.js&#10;gemfil&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/Gemfile&#10;schema&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/db/schema.rb&#10;work*con&#9;null&#9;null&#10;compani&#9;null&#9;null&#10;.css&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/assets/stylesheets/general/general.css&#10;user.rb&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/user.rb&#10;work.rb&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/work.rb&#10;company.r&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/company.rb&#10;project.rb&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/project.rb&#10;general&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/assets/stylesheets/general/general.css" />
+    <property name="SearchEverywhereHistoryKey" value="pro&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/projects_controller.rb&#10;edit&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/companies/edit.erb&#10;new&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/projects/new.erb&#10;show&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/works/show.html.erb&#10;pro*&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/projects_controller.rb&#10;work&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/works_controller.rb&#10;compan*con&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/companies_controller.rb&#10;project&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/project.rb&#10;project*con&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/projects_controller.rb&#10;work.*er&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/works/_work.erb&#10;company.*er&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/companies/_company.erb&#10;works&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/works_controller.rb&#10;company&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/company.rb&#10;Work&#9;null&#9;null&#10;show.h&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/companies/show.html.erb&#10;application&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/layouts/application.html.erb&#10;CompaniesC&#9;null&#9;null&#10;applic&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/assets/javascripts/application.js&#10;application.css&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/assets/stylesheets/application.css&#10;sideb&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/projects/_sidebar.erb&#10;d3&#9;null&#9;null&#10;application.js&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/assets/javascripts/application.js&#10;gemfil&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/Gemfile&#10;schema&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/db/schema.rb&#10;work*con&#9;null&#9;null&#10;compani&#9;null&#9;null&#10;.css&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/assets/stylesheets/general/general.css&#10;user.rb&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/user.rb&#10;work.rb&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/work.rb&#10;company.r&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/company.rb&#10;project.rb&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/project.rb&#10;general&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/assets/stylesheets/general/general.css" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -620,18 +637,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="691" y="84" width="860" height="839" extended-state="0" />
+    <frame x="509" y="146" width="1084" height="839" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2231834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17382812" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953104" sideWeight="0.49608064" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282636" sideWeight="0.2530795" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20491803" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20491803" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40846995" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42213115" sideWeight="0.74692047" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40300545" sideWeight="0.74692047" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -931,22 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/works/_form.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/companies/_form.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.5384617">
@@ -979,14 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/projects/new.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects/edit.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1003,22 +996,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/companies/edit.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/projects/_form.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/works_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1027,26 +1004,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/works/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projects/new.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/companies/edit.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state vertical-scroll-proportion="-7.5384617">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/works/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/projects/_form.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22537878">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="-9.846154">
+          <caret line="18" column="78" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/companies/_form.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/works/_form.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6684073">
+          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
           <folding />
         </state>
       </provider>
