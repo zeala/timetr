@@ -10,3 +10,9 @@ form label{
 form input{
     padding: 5px;
 }
+
+div.remoteform{
+  background-color: #eee;
+    padding: 10px;
+    margin-bottom: 20px;
+}

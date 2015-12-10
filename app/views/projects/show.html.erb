@@ -7,6 +7,11 @@
 <p>alias: <%= @project.slug %> </p>
 
 
+<div class="remoteform">
+  <h2>Add work</h2>
+  <%= render partial: 'works/form', local: {doajax: true} %>
+</div>
+
 <table>
   <tbody>
   <tr>
