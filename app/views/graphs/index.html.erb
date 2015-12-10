@@ -2,5 +2,199 @@
 
 <h1>Projects Dashboard</h1>
 
-<svg id="graph"></svg>
+<div id="graphContainer">
+  <svg id="chart"></svg>
+</div>
 
+
+<button id="testBtn">test</button>
+
+<script>
+
+  $('#testBtn').on("click", function(e){
+    console.log(" button clicked");
+    //initAjasCall();
+    execute_queue(0);
+  });
+
+  var color = d3.scale.category20c();
+
+  var chartData = {}
+
+  var queue = [
+    "project_data",
+    "work_data",
+    "user_data"
+  ];
+
+  var user_data;
+  var project_data;
+  var work_data;
+
+  var execute_queue = function(index)
+  {
+    $.ajax({
+      type: "GET",
+      contentType: "application/json; charset=utf-8",
+      dataType: 'json',
+      url: queue[index],
+      success: function (data) {
+        chartData[queue[index]] = data;
+        index++;    // going to next queue entry
+        // check if it exists
+        if (queue[index] != undefined) {
+          execute_queue(index);
+        }
+        else{
+          draw(chartData)
+        }
+      },
+      error: function (result) {
+        error();
+      }
+    });
+  };
+
+
+
+  function draw(data){
+
+    var radius = 74,
+        padding = 10;
+
+    var arc = d3.svg.arc()
+        .outerRadius(radius)
+        .innerRadius(radius - 30);
+
+    var pie = d3.layout.pie()
+        .sort(null)
+        .value(function(d) {
+          return d.numHours;
+        });
+
+    user_data = data.user_data;
+    project_data = data.project_data;
+    work_data = data.work_data;
+
+    var work_per_users = user_data.map(function(d){
+      console.log("work per user === :");
+      console.log(d)
+      return { username : d.fname + " " + d.lname, numProjects: getNumProjectsPerUser(d.id), numWorks: getNumWorksPerUser(d.id), numHours: getNumHoursPerUser(d.id)}
+    });
+
+    var projects_per_company = project_data.map(function(d){
+      console.log(" project data mapping ")
+      console.log(d)
+
+      return { name: d.name, numHours: getNumHoursPerProject(d.id)};
+    })
+
+    console.log(" final work per users map");
+    console.log(work_per_users);
+    console.log(" final project data");
+    console.log( projects_per_company)
+
+
+    var svg = d3.select("#chart")
+        .attr("width", radius * 2)
+        .attr("height", radius * 2)
+        .append("g")
+        .attr("transform", "translate(" + radius + "," + radius + ")");
+
+    var g = svg.selectAll(".arc")
+        .data(pie(projects_per_company))
+        .enter().append("g")
+        .attr("class", "arc")
+
+        .on("click", function(d, i) {
+          console.log(" mouse over")
+        });
+
+    g.append("path")
+        .attr("d", arc)
+        .attr("fill", function(d, i) {
+          return color(i);
+        });
+
+    g.append("text")
+        .attr("transform", function(d) {
+          return "translate(" + arc.centroid(d) + ")";
+        })
+        .attr("dy", ".35em")
+        .style("text-anchor", "middle")
+        .attr("fill", "#fff")
+        .text(function(d,i) { return projects_per_company[i].numHours; });
+
+   /* svg.append("circle")
+        .attr("cx", 0)
+        .attr("cy", 0)
+        .attr("r", 100)
+        .attr("fill", "#fff") ; // If you want to change the colour of the inner circle, change it here.
+
+*/
+
+  };
+
+
+  function getNumWorksPerUser(userId){
+    var totalWorks = 0;
+
+    for ( var i = 0; i < work_data.length; i++){
+      var work = work_data[i];
+      totalWorks += 1;
+    }
+
+    return totalWorks
+  };
+
+  function getNumHoursPerUser(userId){
+    var totalHours = 0;
+
+    for (var i=0 ; i< work_data.length; i++){
+      var work = work_data[i];
+      if (work.user_id == userId)
+      {
+        totalHours += parseFloat(work.hours);
+      }
+    }
+    return totalHours;
+  }
+
+  function getNumHoursPerProject(projectId){
+    var totalHours = 0;
+
+    for (var i=0 ; i< work_data.length; i++){
+      var work = work_data[i];
+      if (work.project_id == projectId)
+      {
+        totalHours += parseFloat(work.hours);
+      }
+    }
+    return totalHours;
+  }
+
+  function getNumProjectsPerUser(userId){
+    var projectsTotal = 0;
+    var projectsDict = {};
+    for (var i=0 ; i< work_data.length; i++){
+      var work = work_data[i];
+      if (work.user_id == userId)
+      {
+         projectsDict[work.projectId] = work.projectId;
+      }
+    }
+
+    for (var id in projectsDict)
+    {
+      projectsTotal += 1;
+    }
+
+    return projectsTotal;
+  }
+
+
+  function error() {
+    console.log("error")
+    console.log(error)
+  }
+</script>

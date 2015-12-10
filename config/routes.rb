@@ -17,7 +17,9 @@ Rails.application.routes.draw do
   get 'timetrackerproject/:slug' => 'projects#show'
 
   get 'graphs/index'
-  get 'graphs/data', :defaults => {:format => 'json' }
+  get 'graphs/project_data', :defaults => {:format => 'json' }
+  get 'graphs/work_data', :defaults => {:format => 'json' }
+  get 'graphs/user_data', :defaults => {:format => 'json' }
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
 
