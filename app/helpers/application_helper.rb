@@ -2,6 +2,11 @@ module ApplicationHelper
   def nav_items
     [
         {
+          displaytext: 'Dashboard',
+          controllername: 'graphs',
+          linkurl: graphs_index_path
+        },
+        {
           displaytext: 'Companies',
           controllername: 'companies',
           linkurl: companies_path

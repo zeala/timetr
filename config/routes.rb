@@ -15,6 +15,9 @@ Rails.application.routes.draw do
   get 'recentworks/:days' => 'works#index'
 
   get 'timetrackerproject/:slug' => 'projects#show'
+
+  get 'graphs/index'
+  get 'graphs/data', :defaults => {:format => 'json' }
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
 
