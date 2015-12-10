@@ -22,12 +22,16 @@
   <% if flash[:notice] %>
       <div class="flash notice alert alert-success"><%= flash[:notice] %></div>
   <% end %>
+  <% if flash[:alert] %>
+      <div class="flash notice alert alert-danger"><%= flash[:alert] %></div>
+  <% end %>
 
   <section id="main">
     <article>
       <%= yield %>
     </article>
     <aside>
+      <%= user_logged_in_msg %>
       <%= yield :aside %>
     </aside>
   </section>
