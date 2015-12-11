@@ -1,0 +1,15 @@
+#chart{
+    display: inline-block;
+}
+
+#legend{
+    display: inline-block;
+}
+
+.arc {
+    cursor: pointer;
+}
+
+.arc path:hover{
+    stroke: 1px solid maroon;
+}

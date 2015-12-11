@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27def79d-810f-4249-a63a-dbdcfa1f9c43" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/general/charts.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/general/graph.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/general/graph.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/general/general.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/general/general.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/graphs_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/graphs_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/graphs/index.html.erb" afterPath="$PROJECT_DIR$/app/views/graphs/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="timetracker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,11 +31,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/graphs/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.7636366">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.08832808">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="charts.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/general/charts.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.807693">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="graphs_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/graphs_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -54,10 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="general.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="general.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/general/general.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33280757">
+            <state vertical-scroll-proportion="6.3636365">
               <caret line="127" column="8" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
               <folding />
             </state>
@@ -90,9 +107,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="Erb File.html" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -149,8 +166,9 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/general/graph.js" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/graphs_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/graphs/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/general/general.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/general/charts.css" />
+        <option value="$PROJECT_DIR$/app/views/graphs/index.html.erb" />
       </list>
     </option>
   </component>
@@ -492,7 +510,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="recentsLimit" value="5" />
-    <property name="SearchEverywhereHistoryKey" value="application&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/layouts/application.html.erb&#10;schema&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/db/schema.rb&#10;work&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/work.rb&#10;Use&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/user.rb&#10;use&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/test/fixtures/users.yml&#10;rout&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/config/routes.rb&#10;works&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/works_controller.rb&#10;Project&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/project.rb&#10;gra&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/graphs_controller.rb&#10;index&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/graphs/index.html.erb&#10;applic&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/layouts/application.html.erb&#10;routes&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/config/routes.rb&#10;gemf&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/Gemfile&#10;projects&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/projects_controller.rb&#10;users&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/test/fixtures/users.yml&#10;User&#9;null&#9;null&#10;appli&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/layouts/application.html.erb&#10;application_h&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/helpers/application_helper.rb&#10;*.css&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/assets/stylesheets/general/general.css&#10;*css&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/assets/stylesheets/application.css&#10;app&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/layouts/application.html.erb&#10;add_e&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/db/migrate/20151210103911_add_email_to_users.rb&#10;work.&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/works_controller.rb&#10;form_validation_msg&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/partials/_form_validation_msg.erb&#10;edit&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/works/edit.erb&#10;show&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/projects/show.html.erb&#10;work*co&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/works_controller.rb&#10;proje*con&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/projects_controller.rb&#10;form&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/works/_form.erb&#10;pro&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/projects_controller.rb&#10;new&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/projects/new.erb&#10;pro*&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/projects_controller.rb&#10;compan*con&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/companies_controller.rb&#10;project&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/project.rb&#10;project*con&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/projects_controller.rb&#10;work.*er&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/works/_work.erb&#10;company.*er&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/companies/_company.erb&#10;company&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/company.rb&#10;Work&#9;null&#9;null&#10;show.h&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/companies/show.html.erb&#10;CompaniesC&#9;null&#9;null&#10;application.css&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/assets/stylesheets/application.css&#10;sideb&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/projects/_sidebar.erb&#10;d3&#9;null&#9;null&#10;application.js&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/assets/javascripts/application.js&#10;gemfil&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/Gemfile&#10;work*con&#9;null&#9;null&#10;compani&#9;null&#9;null&#10;.css&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/assets/stylesheets/general/general.css&#10;user.rb&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/user.rb" />
+    <property name="SearchEverywhereHistoryKey" value="gr&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/graphs_controller.rb&#10;application&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/layouts/application.html.erb&#10;schema&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/db/schema.rb&#10;work&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/work.rb&#10;Use&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/user.rb&#10;use&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/test/fixtures/users.yml&#10;rout&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/config/routes.rb&#10;works&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/works_controller.rb&#10;Project&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/project.rb&#10;gra&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/graphs_controller.rb&#10;index&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/graphs/index.html.erb&#10;applic&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/layouts/application.html.erb&#10;routes&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/config/routes.rb&#10;gemf&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/Gemfile&#10;projects&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/projects_controller.rb&#10;users&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/test/fixtures/users.yml&#10;User&#9;null&#9;null&#10;appli&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/layouts/application.html.erb&#10;application_h&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/helpers/application_helper.rb&#10;*.css&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/assets/stylesheets/general/general.css&#10;*css&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/assets/stylesheets/application.css&#10;app&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/layouts/application.html.erb&#10;add_e&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/db/migrate/20151210103911_add_email_to_users.rb&#10;work.&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/works_controller.rb&#10;form_validation_msg&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/partials/_form_validation_msg.erb&#10;edit&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/works/edit.erb&#10;show&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/projects/show.html.erb&#10;work*co&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/works_controller.rb&#10;proje*con&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/projects_controller.rb&#10;form&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/works/_form.erb&#10;pro&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/projects_controller.rb&#10;new&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/projects/new.erb&#10;pro*&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/projects_controller.rb&#10;compan*con&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/companies_controller.rb&#10;project&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/project.rb&#10;project*con&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/controllers/projects_controller.rb&#10;work.*er&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/works/_work.erb&#10;company.*er&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/companies/_company.erb&#10;company&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/models/company.rb&#10;Work&#9;null&#9;null&#10;show.h&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/companies/show.html.erb&#10;CompaniesC&#9;null&#9;null&#10;application.css&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/assets/stylesheets/application.css&#10;sideb&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/views/projects/_sidebar.erb&#10;d3&#9;null&#9;null&#10;application.js&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/assets/javascripts/application.js&#10;gemfil&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/Gemfile&#10;work*con&#9;null&#9;null&#10;compani&#9;null&#9;null&#10;.css&#9;FILE&#9;file://C:/Users/Elena/Documents/My work 2015/RubyOnRailsProjects/timetracker/app/assets/stylesheets/general/general.css" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -702,20 +720,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22820237" sideWeight="0.26650366" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40839696" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22820237" sideWeight="0.7334963" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34854245" sideWeight="0.49608064" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35321102" sideWeight="0.49687988" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -734,13 +752,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/helpers/projects_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/works_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -909,6 +920,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="69" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -923,6 +935,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1011,14 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/graphs_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1030,6 +1035,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1037,6 +1043,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,6 +1051,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,14 +1078,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/graphs/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.7636366">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35897437">
@@ -1096,8 +1096,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/general/general.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33280757">
+        <state vertical-scroll-proportion="6.3636365">
           <caret line="127" column="8" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/graphs_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/general/charts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/graphs/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08832808">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
           <folding />
         </state>
       </provider>
